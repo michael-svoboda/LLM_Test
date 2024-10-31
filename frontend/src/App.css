@@ -1,0 +1,16 @@
+/* src/App.css */
+
+html, body, #root {
+  height: 100%;         /* Ensure it fills the screen */
+  margin: 0;            /* Remove default margin */
+  padding: 0;           /* Remove default padding */
+  background-color: #000; /* Set background to black */
+  color: white;         /* Ensure text is white for visibility */
+  font-family: 'Arial', sans-serif; /* Optional: A clean font */
+  overflow: hidden;     /* Prevent any scrollbars on body */
+}
+
+* {
+  box-sizing: border-box; /* Ensure consistent box model */
+}
+

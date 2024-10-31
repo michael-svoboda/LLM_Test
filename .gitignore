@@ -1,0 +1,204 @@
+# ============================
+# Global Ignored Files
+# ============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================
+# Frontend (React) Specific Ignored Files
+# ============================
+
+# Dependency directories
+frontend/node_modules/
+frontend/.pnp/
+frontend/.cache/
+frontend/.parcel-cache/
+
+# Build output
+frontend/build/
+frontend/dist/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.vuepress/dist
+
+# Testing
+frontend/coverage/
+
+# TypeScript
+frontend/*.tsbuildinfo
+
+# Optional npm cache directory
+frontend/.npm
+
+# Optional eslint cache
+frontend/.eslintcache
+
+# IDEs and editors
+frontend/.idea/
+frontend/.vscode/
+frontend/.sublime-project
+frontend/.sublime-workspace
+
+# ============================
+# Backend (Python) Specific Ignored Files
+# ============================
+
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Virtual Environments
+backend/myenv/
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.venv/
+backend/.env/
+
+# Distribution / packaging
+backend/build/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+
+# PyInstaller
+backend/*.manifest
+backend/*.spec
+
+# Installer logs
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/.coverage.*
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/.hypothesis/
+backend/.pytest_cache/
+
+# Translations
+backend/*.mo
+backend/*.pot
+
+# Django stuff:
+backend/*.log
+backend/local_settings.py
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+# Flask stuff:
+backend/instance/
+backend/.webassets-cache
+
+# Scrapy stuff:
+backend/.scrapy
+
+# Sphinx documentation
+backend/docs/_build/
+
+# PyBuilder
+backend/target/
+
+# Jupyter Notebook
+backend/.ipynb_checkpoints/
+
+# pyenv
+backend/.python-version
+
+# celery beat schedule file
+backend/celerybeat-schedule
+backend/celerybeat.pid
+
+# SageMath parsed files
+backend/*.sage.py
+
+# Spyder project settings
+backend/.spyderproject
+backend/.spyproject
+
+# Rope project settings
+backend/.ropeproject
+
+# mkdocs documentation
+backend/site/
+
+# mypy
+backend/.mypy_cache/
+backend/.dmypy.json
+backend/dmypy.json
+
+# Pyre type checker
+backend/.pyre/
+
+# pytype static type analyzer
+backend/.pytype/
+
+# Cython debug symbols
+backend/cython_debug/
+
+# ============================
+# Other Ignored Files
+# ============================
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup folders
+backup/
+
